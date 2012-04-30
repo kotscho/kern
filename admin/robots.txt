@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /classes/
+Disallow: /css/
+Disallow: /fckeditor/
+Disallow: /image/
+Disallow: /includes/
+Disallow: /img/
+Disallow: /js/
+Disallow: /material/
+Disallow: /media/
+Disallow: /pdf/
+Disallow: /swf/
+Disallow: /xajax/

@@ -1,0 +1,25 @@
+<config>
+	<module>
+		<name>social</name>
+		<author>K.Doskas</author>
+		<version>0.2</version>
+		<lang>el</lang>
+		<descr>
+		Socialis a dummy...does nothing!
+		</descr>
+		<admin>
+			<select name="disable">
+				<option>yes</option>
+				<option>no</option>
+			</select>
+		</admin>
+		<database>
+			<table name="social" encoding="utf-8" type="MyISAM">
+				<field type="enum" default="'yes'" name="disable">
+					<value>yes</value>
+					<value>no</value>
+				</field>
+			</table>
+		</database>
+	</module>
+</config>

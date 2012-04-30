@@ -1,0 +1,29 @@
+PLEASE READ THIS INFO FILE!!!
+
+WHEN LAUNCHING:
+
+Adjust paths in: main.php, class.application_nodes.php (renderMenu() the APP constant will not be necessary anymore) 
+and config files.
+
+STATUS 21 Jan.:
+application_nodes can be associated to (menu) types.
+Continue work in: class.application_nodes.php ---application_nodes_helper::menuTypeSelect
+
+STATUS 18 DEC 2011:
+
+TODOS
+
+
+- Controller class!
+- Multiple Category Units (Taxonomies) ===== current task (18/12/2011): categ-units.php
+- Configuration menu: Enable/Disable core features ect.
+- Imlplement Internationalization - Multilinguality
+- Vanish greek as base language.
+- String replace "<?php print " with "<?php print" recursively system wide/ ======= DONE using: rpl -x'.php' -pR "<?=" "<?php print " *
+- Replace pat template with state of the art template engine. Candite: Twig
+- Improve templating/theming - make it intuitive for developers
+- Implement memcached for sql selects and updates
+- Perform Unit tests
+- Test / Implement varnish reverese proxy 
+- Filesystem switch between local and CDN (like Amazon s3).
+- Add tagging for all types of content and adjust the global search mechanism acccordingly.

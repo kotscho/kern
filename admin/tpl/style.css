@@ -1,0 +1,277 @@
+/
+/******************************************
+*   HTML Elements                         
+******************************************/
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+body,html {
+	min-height: 101%;
+	}
+	
+body {
+	padding: 13px 0 25px 0;
+	color: #dc4d44;
+	background: url("images/maingradient.png") center left; 
+	background-color: #fff8dc;
+	background-repeat: repeat-x;
+	}
+
+body, select, input, textarea {
+	font: Arial, Verdana, Sans-Serif;
+	line-height: 1.5em;
+	}
+h2{
+	margin-bottom: 0px; 
+	margin-top: 0px;
+}
+/******************************************
+*   General Structure                         
+******************************************/
+
+#skeleton {
+	width: 720px;
+	height: 800px;
+	margin: 0 auto;
+	font-size: 1em;
+}
+
+#header {
+	margin-top: 0px;
+	padding-top: 0px;
+	width: 720px;
+	height:130px;
+	background: url("images/openbook.png") 5px 20px;
+	background-repeat: no-repeat;
+	background-color: #ceb189; 
+	float: left;
+}
+
+/******************************************
+*   Content                        
+******************************************/
+#content {
+	float: left;
+	width: 720px;
+	min-height: 200px;
+	font-size: 12px;
+	background-image: url("images/fuzzypaper.png");
+	background-position: top;
+	background-repeat: repeat-y;
+	background-color: #ffffee;
+	
+	
+	}
+
+#innercontent{
+	width: 641px;
+	padding-left: 20px;
+	padding-right: 60px;
+	background-image: url("images/contenttopgrad.png");
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.artimage {
+float: left; 
+margin-right: 5px;
+border: 1px solid #ffdf89;
+}
+
+#loginbox{
+	float: right;	
+	width:190px;
+	height: 	126px;
+	margin-top: 10px;
+	background-image: url("images/loginbox.png");
+	
+}
+
+#loginform {
+	display: block;
+	margin-left: 16px;
+	margin-top: 2px;
+}
+
+.inplogin {
+	width: 100px;
+}
+
+.inppasswd {
+	width: 100px;
+}
+
+.inpbuttonlogin {
+	margin-top: 2px;
+	color: #ffffff;
+	width: 105px;
+	background-image: url("images/formbuttonbg.png");
+	background-position: top;
+	background-repeat: repeat-x;
+	border: none;	
+}
+/************************************/
+
+
+#rightbox{
+	width:188px;
+	height:620px;
+	float: left;
+	background-image: url("images/rightbox-with-gradient.png");
+}
+
+#title {
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+}
+
+#publishedon {
+	font-size: 12px;
+	float: right;
+	font-style: italic;
+}
+
+#author {
+	font-size: 12px;
+	float: right;
+	font-style: italic;
+}
+
+#menucontainer{
+	margin-top: 100px;
+	position: absolute;
+	padding-left: 16px;
+	background-image: url("images/gradient-linear.png");
+	background-position: top;
+	background-repeat: repeat-x;
+	height: 160px;
+	width: 704px;
+}
+.dividers {
+	height: 30px;
+}	
+
+#searchform {
+	display: block;
+	margin-left: 16px;
+}
+
+.inp {
+	width: 100px;
+}
+
+.inpbutton {
+	color: #ffffff;
+	width: 50px;
+	background-image: url("images/formbuttonbg.png");
+	background-position: top;
+	background-repeat: repeat-x;
+	border: none;	
+}
+.theauhor{
+	margin-top: 8px;
+	margin-left: 16px;
+	line-height: 1.2em;
+}
+.theauthorspan{
+	font-size: 11px;
+}
+.pagelist {
+	margin-top: 16px;
+	margin-left: 16px;
+	line-height: 1.2em;	
+}
+.mylist {
+	font-size: 11px;
+}
+.mylist ul{
+	list-style-position: outside;
+	list-style-image: url(images/sidearrow.gif);
+	list-style-type: square;
+	padding: 6px;
+	margin: 2px;
+	margin-left: 12px;
+}
+.mylist ul li {
+	font-size: 11px;
+	position: relative;
+}
+.mylist ul li a {
+	color: #212342;
+	text-decoration: none;
+}
+.mylist ul li ul {
+	list-style-position: outside;
+	list-style-image: url(images/sidearrow.gif);
+	list-style-type: square;
+	padding: 6px;
+	margin: 2px;
+	margin-left: 12px;
+}
+.mylist ul li ul li{
+	font-size: 11px;
+	position: relative;
+}
+
+.mylist ul li ul li a{
+	color: #212342;
+	text-decoration: none;
+}	
+#menucontainer a:link{
+	font-size: 12px;
+	font-weight: bold;
+	color: #212342;
+	text-decoration: none;
+}
+
+#menucontainer a:visited{
+	font-size: 12px;
+	font-weight: bold;
+	color: #212342;
+	text-decoration: none;
+}
+
+#menucontainer a:hover{
+	text-decoration: underline;
+}
+#bgfill {
+	padding-left: 0px; 
+	padding-top: 105px;
+	width: 100px;
+	background-image: url("images/gradient-linear.png");
+	float: left;
+}
+#footer {
+	width: 712px;
+	float: left;
+}
+.right{
+	float: right;
+	font-size: 12px;
+	color: #212342;
+}
+.left{
+	float: left;
+	font-size: 12px;
+	color: #212342;
+}
+.right a{
+	font-size: 12px;
+}
+
+.right a:link{
+	color: #212342;
+	text-decoration: none;
+}	
+
+.right a:hover{
+	color: #212342;
+	text-decoration: underline;
+}	
+.right a:visited{
+	color: #212342;
+	text-decoration: none;
+}	

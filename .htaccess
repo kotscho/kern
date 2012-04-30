@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^search-results$ frontend/source/main.php
+RewriteRule ^sitemap$ frontend/source/main.php?sitemap=true
+RewriteRule ^home$ frontend/source/main.php?itemid=82
+RewriteRule ^home/([0-9]+).htm$ frontend/source/main.php?art=$1&itemid=82
+RewriteRule ^home/posted/([0-9]+).htm$ frontend/source/main.php?itemid=82&art=$1&posted=true
+RewriteRule ^test$ frontend/source/main.php?itemid=133
+RewriteRule ^test/([0-9]+).htm$ frontend/source/main.php?art=$1&itemid=133
+RewriteRule ^test/posted/([0-9]+).htm$ frontend/source/main.php?itemid=133&art=$1&posted=true
+RewriteRule ^test/testchild$ frontend/source/main.php?itemid=141
+RewriteRule ^test/testchild/([0-9]+).htm$ frontend/source/main.php?art=$1&itemid=141
+RewriteRule ^test/testchild/posted/([0-9]+).htm$ frontend/source/main.php?itemid=141&art=$1&posted=true
