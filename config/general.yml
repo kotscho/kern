@@ -1,0 +1,20 @@
+roles:
+  web: kern.local
+  
+  app: kern.local
+  
+  db: localhost, :primary => true 
+  
+application: kern
+# create this user on production server
+user: deployer
+# create this group on production server
+group: deployer
+# create this dir on production server 
+db_bak: "$HOME/sql_backup"
+
+db_user: ""
+
+db_passwd: ""
+
+db: ""

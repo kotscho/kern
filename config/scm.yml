@@ -1,0 +1,13 @@
+# ============================================================== #
+
+# SCM OPTIONS
+
+# ============================================================== #
+
+scm:  "git"
+
+scm_user: "deployer"
+
+scm_passphrase: "iotababy"
+
+repository: "git@github.com:kotscho/kern.git" 
