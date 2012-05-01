@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once('functions/adminFunctions.inc.php');
-require_once(CLASS_PATH.SYS_FOLDER."class.user.php");//kdos: its all over the fucking place...beware
+#require_once(CLASS_PATH.SYS_FOLDER."user.class.php");//kdos:should become global object
 include("fckeditor/fckeditor.php");
 require("xajax.common.php");
 is_alive();
