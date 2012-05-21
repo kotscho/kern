@@ -18,6 +18,8 @@
 --
 -- Table structure for table `application_nodes`
 --
+-- whatever ==================================
+
 DROP TABLE IF EXISTS `deployer_test`;
 CREATE TABLE `deployer_test` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
