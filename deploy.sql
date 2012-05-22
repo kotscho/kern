@@ -18,7 +18,7 @@
 --
 -- Table structure for table `application_nodes`
 --
--- whatever/test ==================================
+-- migrating whatever/test ==================================
 
 DROP TABLE IF EXISTS `deployer_test`;
 CREATE TABLE `deployer_test` (
