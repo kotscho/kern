@@ -19,6 +19,17 @@
 -- Table structure for table `application_nodes`
 --
 
+-- migrating whatever/test ==================================
+
+DROP TABLE IF EXISTS `deployer_test`;
+CREATE TABLE `deployer_test` (
+  `DUMMY_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `dummy` varchar(20) NOT NULL,
+  `stupid` varchar(10) NOT NULL,
+  PRIMARY KEY(`DUMMY_ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+
+
 DROP TABLE IF EXISTS `application_nodes`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
