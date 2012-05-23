@@ -1,9 +1,9 @@
 roles:
-  web: kern.local
+  web: 192.168.1.170
   
-  app: kern.local
-  
-  db: localhost, :primary => true 
+  #app: kern.local
+  #there you go mf
+  #db: 192.168.1.170
   
 application: kern
 # create this user on production server
@@ -11,10 +11,10 @@ user: deployer
 # create this group on production server
 group: deployer
 # create this dir on production server 
-db_bak: "$HOME/sql_backup"
+sql_backup: "$HOME/sql_backup"
 
-db_user: ""
+db_user: "deployer"
 
-db_passwd: ""
+db_passwd: "deployer"
 
-db: ""
+db_name: "kern"
