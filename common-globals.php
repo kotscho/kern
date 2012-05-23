@@ -10,7 +10,7 @@ define("APP", 'kern');
 
 #======================== CHANGE THIS UPON DEPLOYMENT =======================================#
 define("LOCAL", '127.0.0.1/'); //provide empty string for live version
-define("APP_WITH_SLASH", 'whatever');//provide empty string for live version
+define("APP_WITH_SLASH", '');//provide empty string for live version
 #===========================================================================================#
 
 define("BASE_PATH", $_SERVER['DOCUMENT_ROOT'].APP_WITH_SLASH);
