@@ -21,7 +21,7 @@
 DROP TABLE IF EXISTS `deployer_test`;
 CREATE TABLE `deployer_test` (
   `DUMMY_ID` int(11) NOT NULL AUTO_INCREMENT,
-  `dummy` varchar(20) NOT NULL,
+  `totaldummy` varchar(40) NOT NULL,
   PRIMARY KEY(`DUMMY_ID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
