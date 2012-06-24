@@ -1,7 +1,7 @@
 <?php
 /*
  * Simple autoload
- * 
+ * kdos did this on the 24th of June 2012
  */
 
 function classLoader($classname)
